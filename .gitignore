@@ -1,0 +1,12 @@
+# Ignorar o ambiente virtual
+venv/
+__pycache__/
+
+# Ignorar pastas de dados
+silver_orders_enriched/
+*.csv
+*.parquet
+
+# Ignorar arquivos do Windows/Mac
+.DS_Store
+Thumbs.db
